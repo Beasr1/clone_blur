@@ -1,4 +1,11 @@
 const Loans = () => {
-  return <div className="flex justify-center items-center">LOANS PAGE</div>;
+  return (
+    <div
+      className="flex justify-center items-center"
+      style={{ color: "white" }}
+    >
+      LOANS PAGE
+    </div>
+  );
 };
 export default Loans;

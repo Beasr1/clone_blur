@@ -4,6 +4,7 @@ import Navbar2 from "@/components/profile/Navbar2";
 import Sidebar from "@/components/sidebar/Sidebar";
 import Sidebar2 from "@/components/sidebar2/Sidebar2";
 import Dashboard from "@/components/dashboard/Dashboard";
+import Footer from "@/components/footer/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <Navbar2 />
         <Dashboard>{children}</Dashboard>
+        <Footer />
         {/* 
         <Dashboard>{children}</Dashboard>
         <Footer /> */}
