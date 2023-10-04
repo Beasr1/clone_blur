@@ -1,0 +1,28 @@
+/* components/ActivityItem.module.scss */
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+
+  .activity-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    div {
+      margin-bottom: 5px;
+    }
+  }
+
+  .activity-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0097b9;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
