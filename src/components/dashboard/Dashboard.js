@@ -12,7 +12,7 @@ const Dashboard = ({ children }) => {
 
   return (
     <div className={styles["flex-container"]}>
-      <div style={{ width: "25%" }} className={styles.sidebar_contain}>
+      <div style={{ width: "20%" }} className={styles.sidebar_contain}>
         <Sidebar />
       </div>
 
@@ -120,7 +120,7 @@ const Dashboard = ({ children }) => {
         </div>
         <div className={styles.content_container}>{children}</div>
       </div>
-      <div style={{ width: "35%" }} className={styles.sidebar2_contain}>
+      <div style={{ width: "45%" }} className={styles.sidebar2_contain}>
         <Sidebar2 />
       </div>
     </div>

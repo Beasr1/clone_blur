@@ -51,6 +51,10 @@ text-decoration: none;
 .text_contain{
     height: 36px;
     margin-right: 5px;
+
+    @media (max-width: 1000px) {
+        display: none;
+      }
 }
 
 .text{
