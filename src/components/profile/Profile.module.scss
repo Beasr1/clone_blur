@@ -1,0 +1,45 @@
+/* Profile.module.scss */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 10px;
+  }
+  
+  .profile-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    img {
+      opacity: 1;
+      border-radius: 50%;
+      max-height: 50px;
+      max-width: 50px;
+    }
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  
+    .username {
+      color: rgb(146, 146, 146);
+    }
+  
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+  
+      .icon {
+        width: 24px;
+        height: 24px;
+        fill: rgb(146, 146, 146);
+      }
+    }
+  }
+  

@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    gap: 0.5rem; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 0.25rem; 
+    border-bottom-right-radius: 0.25rem; 
+    border-bottom-left-radius: 0.25rem; 
+    border-width: 1px; 
+    border-style: solid; 
+    width: 50%;  
+    color: rgb(217,217,217);
+    border-color: rgb(48,48,48);
+    margin: 6px;
+    max-width: 600px;
+
+    padding-left: 10px;
+}
+
+.search_input{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+}
+
+
+.mag_glass{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(217, 217, 217);
+}
+
+.trans{
+    transition: transform 150ms ease-in-out 0s;
+
+}

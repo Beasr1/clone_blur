@@ -1,0 +1,79 @@
+/* Traits.module.scss */
+
+.traits-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-bottom: 20px;
+    gap: 4px;
+  
+    .section-title {
+      font-size: 14px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+  
+      svg {
+        width: 24px;
+        height: 24px;
+        stroke-width: 1.5;
+        stroke: currentColor;
+      }
+    }
+  
+    .trait-item {
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items:center;
+      padding: 4px;
+      gap: 4px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .expanded {
+    max-height: 600px;
+    transition: max-height 0.3s ease; /* Add a smooth transition effect */
+    
+
+    .text{
+        background-color: #303030;
+        width: 100%;
+    }
+  }
+
+  .text{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 10px;
+  }
+  
+  .expanded-text {
+    max-height: 1000px; /* Set a large max-height for the expanded content */
+    opacity: 1; /* Make the expanded content fully visible */
+    transition: max-height 0.3s ease, opacity 0.3s ease; /* Add a smooth transition effect for max-height and opacity */
+    
+      input[type="checkbox"] {
+        cursor: pointer;
+        appearance: none;
+        height: 16px;
+        width: 16px;
+        border: 1px solid #ccc;
+        background-color: transparent;
+        margin-right: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        &:checked {
+          background-color: rgb(245 158 11);
+          border: 1px solid rgb(245 158 11);
+          
+        }
+      }
+  }

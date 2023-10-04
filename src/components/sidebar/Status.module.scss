@@ -1,0 +1,141 @@
+/* Status.module.scss */
+
+.status-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(48, 48, 48);
+    padding-bottom: 5px;
+    gap: 4px;
+  
+    .section-title {
+      padding: 4px;
+      color: white;
+    }
+  
+    .radio-label {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      cursor: pointer;
+      margin-bottom: 4px;
+  
+      input[type="radio"] {
+        cursor: pointer;
+        appearance: none;
+        height: 16px;
+        width: 16px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        background-color: transparent;
+        margin-right: 2px;
+  
+        &:checked {
+          background-color: rgb(245 158 11);
+          border: 1px solid rgb(245 158 11);
+          
+        }
+      }
+    }
+  }
+  
+
+  /* Status.module.scss */
+.filters-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+  
+    .filters-header {
+      display: flex;
+      height: 30px;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 12px;
+      padding-right: 12px;
+      background: black;
+      border: none;
+      margin-bottom: 5px;
+
+     &:hover{
+        background: rgb(48, 48, 48);
+     }
+
+      .title {
+        color: white;
+        text-transform: uppercase;
+      }
+  
+      .chevron {
+        display: flex;
+        width: max-content;
+        height: max-content;
+        align-items: center;
+        justify-content: center;
+  
+        svg {
+          width: 12px;
+          height: 7px;
+          fill: none;
+        }
+      }
+    }
+  
+    .filters-content {
+      margin: 0;
+      padding: 0;
+  
+      .filter-buttons {
+        display: flex;
+        margin-bottom: 25px;
+        justify-content: space-between;
+        flex-direction: row;
+        column-gap: 10px;
+        
+  
+        .filter-button {
+          flex: 1 1 0%;
+          background-color: black;
+          color: rgb(245 158 11);
+          border: 1px solid rgb(245 158 11);
+          border-radius: 10%;
+  
+          .filter-label {
+            text-transform: uppercase;
+          }
+        }
+      }
+  
+      
+    }
+  }
+  .filter-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .filter-label {
+      color: grey300;
+      text-transform: uppercase;
+      width: 50%;
+    }
+
+    input {
+      margin-right: 10px;
+      padding: 5px;
+      border: 1px solid grey;
+      border-radius: 4px;
+      width: 50%;
+      background-color: black;
+      text-decoration: none;
+      color: #b9b9b9;
+    }
+  }
+  .input_con{
+    display: flex;
+  }
+  
+  .expanded{
+    background: rgb(48, 48, 48);
+    margin-bottom: 25px;
+  }

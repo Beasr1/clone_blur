@@ -1,0 +1,53 @@
+.connect_container{
+    display: flex; 
+flex: 1 1 0%; 
+    width: 10%;
+    font-weight: 1000;
+}
+
+.connect{
+    display: flex; 
+position: relative; 
+padding-top: 0;
+padding-bottom: 0; 
+justify-content: center; 
+align-items: center; 
+border-radius: 0; 
+border-style: solid; 
+height: 100%; 
+// border-color: rgb(48,48,48);
+}
+
+.button{
+    display: flex; 
+    padding-top: 0;
+    padding-bottom: 0; 
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+    border-style: solid; 
+    cursor: pointer; 
+    width: 200px;
+    background: rgb(255,135,0);
+    border-color: rgb(255,135,0);
+    gap: 10px;
+
+    &:hover {
+    background: white;
+    }
+}
+
+.wallet{
+    display: flex; 
+justify-content: center; 
+align-items: center; 
+width: 1.25rem; 
+height: 36px;
+transition-property: transform;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 300ms; 
+}
+
